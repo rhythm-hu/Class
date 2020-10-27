@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_margin="16dp"
+        android:text="@string/text1" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/text2"
+        android:inputType="numberDecimal"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn1"
+        android:onClick="btn1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn2"
+        android:onClick="btn2"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/btn3"
+        android:onClick="btn3"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn5"
+        android:onClick="btn5"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn4"
+        android:onClick="btn4"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:layout_margin="30dp"
+        android:gravity="right"
+        android:textSize="15sp"/>
+</LinearLayout>

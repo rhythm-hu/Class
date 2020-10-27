@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">汇率转换</string>
+    <string name="text1">人民币</string>
+    <string name="text2">输入金额</string>
+    <string name="btn1">美元</string>
+    <string name="btn2">欧元</string>
+    <string name="btn4">清空</string>
+    <string name="btn3">韩元</string>
+    <string name="text3">数据更新日期：2020-09-22</string>
+    <string name="btn5">传输</string>
+    <string name="btn6">保存</string>
+</resources>
