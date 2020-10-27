@@ -18,7 +18,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context){
         this(context,DB_NAME,null,VERSION);
     }
-
+//add someting new...
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE "+TB_NAME+" (id INTEGER PRIMARY KEY AUTOINCREMENT , curName TEXT , curRate TEXT) ");
